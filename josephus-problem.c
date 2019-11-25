@@ -12,6 +12,7 @@ int dequeue(void); //return -1 is queue is empty, otherwise dequeued item is ret
 void display(void); //displays all elements of the queue
 
 int main(void) {
+   
     printf("\nEnter n and m: ");
     scanf("%d %d", &n, &m); //n is how many men, m is how many skipped
     
@@ -106,7 +107,7 @@ void display(void) {
         return;
     }
 
-    printf("\n");
+        printf("\n");
     i = front;
     if (front <= rear)
     {
@@ -123,7 +124,7 @@ void display(void) {
         while(i <= rear) {
             printf("%d ", queue[i++]);
         }
-        printf("\n");
+            printf("\n");
     }
-    printf("\n");
+        printf("\n");
 }
