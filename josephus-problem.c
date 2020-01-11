@@ -126,5 +126,5 @@ void display(void) {
         }
             printf("\n");
     }
-        printf("\n");
+          printf("\n");
 }
